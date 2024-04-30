@@ -155,13 +155,7 @@
  <artifactId>maven-javadoc-plugin</artifactId>
  <version>3.6.3</version>
  <reportSets>
-          <reportSet>
-            <id>aggregate</id>
-            <inherited>false</inherited>
-            <reports>
-              <report>aggregate</report>
-            </reports>
-          </reportSet>
+         
           <reportSet>
             <id>default</id>
             <reports>
