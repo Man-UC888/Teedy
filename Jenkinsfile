@@ -16,6 +16,11 @@ steps {
    sh' mvn test'
   }
  }
+ stage('Doc'){
+  steps{
+  sh'mvn javadoc:javadoc --fail-never'
+  }
+ }
  }
   post {
  always {
