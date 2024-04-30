@@ -18,7 +18,7 @@ steps {
  }
  stage('Doc'){
   steps{
-  sh'mvn site --fail-never'
+  
   sh'mvn javadoc:javadoc --fail-never'
    
   }
