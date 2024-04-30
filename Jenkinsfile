@@ -11,6 +11,11 @@ steps {
  sh 'mvn pmd:pmd'
  }
  }
+ stage('test'){
+  steps{
+   sh' mvn test'
+  }
+ }
  }
   post {
  always {
