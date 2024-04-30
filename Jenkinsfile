@@ -16,6 +16,11 @@ steps {
    sh' mvn test'
   }
  }
+  stage('surefire'){
+  steps{
+   sh'mvn surefire-report:report'
+  }
+ }
  stage('Doc'){
   steps{
   
